@@ -92,11 +92,12 @@ Potential revenue streams for the project:
 
 ### Revenue Streams Distribution
 ```mermaid
-xyChart
-    title "Market Size Projection (Billion USD)"
-    x-axis "Year" [2025, 2026, 2027, 2028, 2029, 2030]
-    y-axis "Market Size (Billion USD)" 0 --> 6
-    bar [2.5, 2.875, 3.3, 3.8, 4.4, 5.0]
+pie
+    title Revenue Streams Distribution
+    "Subscriptions" : 1
+    "Marketplace Fees" : 1
+    "Advertising" : 1
+    "Enterprise Licensing" : 1
 ```
 
 ## 5. Initial Project Cost Estimate

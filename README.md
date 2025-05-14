@@ -28,15 +28,13 @@ By focusing on these unique selling points (USPs) and leveraging AI capabilities
 
 ### Competitor Ratings and Mindshare Visualization
 ```mermaid
-bar
-%% Title: Competitor Ratings and Mindshare
-"Elastic Search - Rating" : 83
-"Elastic Search - Mindshare" : 15.6
-"Amazon Kendra - Rating" : 80
-"Amazon Kendra - Mindshare" : 15.8
-"Algolia - Rating" : 86
-"Azure Search - Rating" : 70
-"Azure Search - Mindshare" : 14.3
+pie
+    title Ratings & Mindshare
+    "Elastic Search (8.3)" : 15.6
+    "Amazon Kendra (8.0)" : 15.8
+    "Algolia (8.6)" : 0   -- Mindshare N/A, digambarkan sebagai 0 untuk visualisasi pie chart
+    "Azure Search (7.0)" : 14.3
+    "Coveo (N/A)" : 0      -- Mindshare & Rating N/A, digambarkan sebagai 0
 ```
 
 ## 2. Recommended Unique Selling Points (USPs)
@@ -50,12 +48,15 @@ Based on market gaps and competitor weaknesses:
 
 ### USP Impact Visualization
 ```mermaid
-bar
-%% Title: Unique Selling Points Impact
-"Industry-specific customization" : 85
-"Advanced user analytics" : 90
-"AI-driven personalization" : 80
-"Flexible pricing models" : 75
+gantt
+    dateFormat  X
+    title USP Impact Visualization
+
+    section Unique Selling Points
+    Niche Industry Customization :usp1, 0, 1
+    Enhanced User Analytics    :usp2, 0, 1
+    AI-Driven Personalization  :usp3, 0, 1
+    Flexible Pricing Models    :usp4, 0, 1
 ```
 
 ## 3. Market Projection (2025–2030)
@@ -72,14 +73,11 @@ The Search as a Service sector is expected to grow steadily with a CAGR of ~15%,
 
 ### Market Size Projection Visualization
 ```mermaid
-bar
-%% Title: Search as a Service Market Size Projection (Billion USD)
-"2025" : 2.5
-"2026" : 2.9
-"2027" : 3.3
-"2028" : 3.8
-"2029" : 4.4
-"2030" : 5.0
+xyChart
+    title "Market Size Projection (Billion USD)"
+    x-axis "Year" [2025, 2026, 2027, 2028, 2029, 2030]
+    y-axis "Market Size (Billion USD)" 0 --> 6
+    bar [2.5, 2.875, 3.3, 3.8, 4.4, 5.0]
 ```
 
 ## 4. Revenue Streams and Earning Potential
@@ -93,12 +91,11 @@ Potential revenue streams for the project:
 
 ### Revenue Streams Distribution
 ```mermaid
-pie
-    title Revenue Streams Distribution
-    "Subscriptions": 40
-    "Marketplace Fees": 25
-    "Advertising": 20
-    "Enterprise Licensing": 15
+xyChart
+    title "Market Size Projection (Billion USD)"
+    x-axis "Year" [2025, 2026, 2027, 2028, 2029, 2030]
+    y-axis "Market Size (Billion USD)" 0 --> 6
+    bar [2.5, 2.875, 3.3, 3.8, 4.4, 5.0]
 ```
 
 ## 5. Initial Project Cost Estimate
@@ -113,15 +110,12 @@ pie
 
 ### Cost Breakdown Visualization
 ```mermaid
-flowchart TD
-    A[Project Cost Estimate] --> B[Human Resources]
-    A --> C[Tools & Software]
-    A --> D[Time Allocation]
-    B --> B1[Developers - $20k]
-    B --> B2[Designers - $10k]
-    C --> C1[Cloud Services - $5k]
-    C --> C2[APIs/Tools - $3k]
-    D --> D1[3 Months Timeline]
+pie
+    title Initial Project Cost Estimate
+    "Human Resources: Developers" : 20000
+    "Human Resources: Designers" : 10000
+    "Tools & Software: Cloud Services" : 5000
+    "Tools & Software: APIs/Third-party Tools" : 3000
 ```
 
 ## 6. Conclusions and Recommendations

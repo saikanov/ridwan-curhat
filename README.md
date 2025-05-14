@@ -32,9 +32,10 @@ pie
     title Ratings & Mindshare
     "Elastic Search (8.3)" : 15.6
     "Amazon Kendra (8.0)" : 15.8
-    "Algolia (8.6)" : 0   -- Mindshare N/A, digambarkan sebagai 0 untuk visualisasi pie chart
+    "Algolia (8.6)" : 0
     "Azure Search (7.0)" : 14.3
-    "Coveo (N/A)" : 0      -- Mindshare & Rating N/A, digambarkan sebagai 0
+    "Coveo (N/A)" : 0
+
 ```
 
 ## 2. Recommended Unique Selling Points (USPs)

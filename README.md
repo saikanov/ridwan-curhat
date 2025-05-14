@@ -74,7 +74,7 @@ The Search as a Service sector is expected to grow steadily with a CAGR of ~15%,
 
 ### Market Size Projection Visualization
 ```mermaid
-xyChart
+xychart-beta
     title "Market Size Projection (Billion USD)"
     x-axis "Year" [2025, 2026, 2027, 2028, 2029, 2030]
     y-axis "Market Size (Billion USD)" 0 --> 6
